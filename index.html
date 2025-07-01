@@ -1,104 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Niels van Egmond</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<title>Nosy Fish</title>
 
 <style>
-.center {
-  text-align: center;
-  padding: 100px 0;
-}
+
 html, body {
     background-color: rgb(228, 124, 124);
-}
-
-.full-height {
-    height: 100vh;
-
-}
-body
-{
-
-}
-a
-{
-  color: #FF9933
-}
-
-.titillium-web-extralight {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.titillium-web-light {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.titillium-web-regular {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.titillium-web-semibold {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.titillium-web-bold {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.titillium-web-black {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.titillium-web-extralight-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.titillium-web-light-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.titillium-web-regular-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.titillium-web-semibold-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.titillium-web-bold-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.lilita-one-regular {
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
 }
 
 h1
@@ -106,17 +14,33 @@ h1
 	font-size: 50px;
 }
 
+.fullScreenBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nosyFishLogo {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
 </style>
 
 </head>
 <body>
-
-<div class='titillium-web-regular center full-height'>
-<h1 class='lilita-one-regular'>Niels van Egmond</h1>
-<p><b>Portfolio is in progress.</b><br><br>
-[TLDR] Passionatly worked at Paladin Studios for 18+ years.<br>
-Looking forward to my next adventure</p>
-<h4><a href="https://www.linkedin.com/in/nielsvanegmond/">Linkedin</a> - <a href="https://paladinstudios.com/">Paladin Studios</a></h4>
+<div class='fullScreenBox'>
+    <svg class="nosyFishLogo" viewBox="0 0 200 100" height="100%" width="100%">
+        <path d="M135.56,4.52l-6.84-.36c-.6-.03-1.12.43-1.14,1.03-.08,1.84-.29,5.76-.78,9.81-.69,5.84-5.58,7.66-9.13,5.07-3.89-2.84-1.5-12.36-.49-15.79.19-.65-.25-1.31-.92-1.39l-6.5-.71c-.53-.06-1.03.27-1.17.79-.62,2.33-2.16,8.84-1.68,15.07.47,6.11,7.52,15.95,19.4,11.36-.02-.01.6,10.43-6.74,9.45-4.75-.64-7.6-4.38-8.76-6.29-.35-.57-1.12-.68-1.63-.25l-4.57,3.91c-.35.3-.48.79-.31,1.22.89,2.25,4.43,8.9,15.37,9.87,13.3.86,13.96-10.7,15.57-25.83.74-6.96,1.19-13.35,1.35-15.84.04-.6-.42-1.12-1.03-1.15ZM10.93,42.63c.64,0,1.14-.56,1.08-1.19l-1.86-18.92,12.76,18.87c.23.33.62.52,1.02.47l7.02-.76c.58-.06,1.01-.58.97-1.16L29.06,3.25c-.05-.6-.57-1.05-1.17-1l-6.41.49c-.59.05-1.04.56-1,1.16l1.49,22.89L8.04,4.37c-.22-.35-.61-.55-1.02-.51l-6.03.54C.39,4.46-.05,4.98,0,5.58l3.23,36.1c.05.56.52.99,1.09.99l6.61-.04ZM87.87,42.02c11.19.91,14.61-7.61,14.32-11.83-.43-6.33-5.2-10.16-12.4-13.05-9.2-3.69-5.93-8.36-1.66-9.16,4.32-.8,8.19,3.14,9.69,4.91.38.45,1.06.51,1.51.13l4.47-3.65c.39-.32.51-.87.29-1.33C103.02,5.91,99.28.24,89.33,0c-12.48-.29-16.03,8.1-15.12,13.77,1.22,7.59,10.14,9.09,14.4,11.65,6.36,3.83,3.57,8.2-.14,7.87-3.94-.35-7.24-3.07-8.68-4.6-.45-.48-1.21-.47-1.63.03l-4.21,5c-.34.4-.35.99,0,1.4,1.49,1.77,6.01,6.25,13.93,6.9ZM34.99,46.56l-29.82,1.96c-.63.04-1.09.6-1.01,1.22l4.59,35.44c.07.52.49.92,1.02.95l6.52.37c.66.04,1.2-.52,1.15-1.18l-1.13-13.64,11.65-1.23c.56-.06.99-.54.97-1.11l-.13-5.38c-.02-.61-.53-1.09-1.15-1.06l-12.11.67-.27-6.96,18.68-.13c.54,0,.99-.4,1.07-.93l1.12-7.77c.1-.68-.46-1.29-1.15-1.24ZM73.85,45.55c-14.02.82-16.87,10.46-15.27,16.09,1.92,6.74,11.28,8.4,15.99,10.85,7.07,3.67,4.24,8.4.24,8.11-4.08-.29-7.47-2.96-9.02-4.4-.49-.45-1.26-.36-1.64.2l-3.64,5.44c-.29.43-.23,1,.13,1.37,1.47,1.52,5.78,5.13,13.89,5.73,11.91.87,15.61-7.96,14.94-12.16-.91-5.74-5.34-10.21-13.53-12.97-9.6-3.23-7.78-8.41-3.74-9.39,5.16-1.33,9.35,2.93,10.91,4.83.38.46,1.07.52,1.53.13l5.48-4.58c.41-.34.52-.94.23-1.4-1.4-2.27-6.18-8.45-16.52-7.84ZM72.15,20.7c-.04-11.32-8.6-20.5-19.11-20.5s-19.01,9.18-18.97,20.5c.04,11.32,8.6,20.5,19.11,20.5s19.01-9.18,18.97-20.5ZM42.17,20.06c0-7.07,4.72-12.32,11.14-12.32s11.14,5.25,11.14,12.32-4.72,12.32-11.14,12.32-11.14-5.25-11.14-12.32ZM115.53,52.77c-7.15,1.02-11.01,4.05-11.01,4.05l-.07-10.76c0-.65-.57-1.15-1.22-1.07l-7.93.97c-.57.07-.99.57-.95,1.14l2.29,39.79c.03.59.53,1.04,1.12,1.02l6.85-.24c.58-.02,1.05-.5,1.05-1.08l.09-13.36s-.5-11.36,9.87-11.29c5.92.04,5.11,4.94,5.1,9.76-.01,5.76-.61,11.77-.77,14.3-.04.65.49,1.18,1.14,1.15l6.57-.31c.52-.02.94-.41,1.02-.92.54-3.49,2.4-16.51,1.13-24.1-1.12-6.71-7.48-10.04-14.3-9.06ZM52.34,48.16l-9.75-.87c-.63-.06-1.18.44-1.18,1.07l-.5,38.06c0,.58.45,1.07,1.03,1.1l6.56.34c.58.03,1.08-.4,1.14-.98l3.68-37.54c.06-.6-.38-1.14-.99-1.19ZM57.01,22.26c2.86-.89,4.4-4.11,3.44-7.18s-4.06-4.84-6.92-3.94-4.4,4.11-3.44,7.18c.96,3.07,4.06,4.84,6.92,3.94Z" style="fill:white" />
+        Sorry, your browser does not support inline SVG.
+    </svg>
 </div>
 </body>
 </html>
